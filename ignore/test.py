@@ -1,4 +1,4 @@
-import do
+import ignore.do as do
 import queue
 import time
 
