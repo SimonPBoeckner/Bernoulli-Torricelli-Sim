@@ -32,6 +32,7 @@ def simulate(choice, height, radius):
         _drawCone()
 
 def _drawSphere():
+    canvas.create_aa_circle()
     canvas.create_oval(((width/2)-(radiusNum)),((_height/2)-(radiusNum)),((width/2)+(radiusNum)),((_height/2)+(radiusNum)))
     canvas.create_line(getCircleX(360), 360, getCircleX(360)+50, 360)
     canvas.create_line(getCircleX(340), 340, getCircleX(360)+50, 340)
